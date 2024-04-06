@@ -23,7 +23,7 @@ app.use("/api/v1/", jawabanSpritual)
 
 mongoose.connect(MONGODB_URL)
     .then(() =>
-        app.listen(PORT, () => console.log(`Connect to Database Localhost 5000`))
+        app.listen(PORT, () => console.log(`Connect to Database Localhost ${PORT}`))
     ).catch((err) => console.log(err))
 
 
