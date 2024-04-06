@@ -22,7 +22,7 @@ const userSchema = new Schema({
     },
     pelajaran: {
         type: String,
-        // required:true
+        // required:true 
     },
     kelas: {
         type: String,
@@ -34,7 +34,7 @@ const userSchema = new Schema({
     },
     isPretest: {
         type: Boolean,
-        // required:true
+        // required:true 
     },
     isPosttest: {
         type: Boolean,
