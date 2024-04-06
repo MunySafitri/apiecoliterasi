@@ -8,7 +8,8 @@ import jawabanSpritual from "./routes/jawabanspritual-routes.js";
 import jawabanPpl from "./routes/jawabanppl-routes.js";
 import userRoutes from "./routes/user-routes.js";
 
-const PORT = 5000;
+// const PORT = 5000;
+const PORT = 26405;
 const app = express();
 // const MONGODB_URL = "mongodb+srv://munysafitri:Xrvzo9DrlUYIEtKJ@cluster0.wny76am.mongodb.net/ECO?retryWrites=true&w=majority&appName=Cluster0"
 const MONGODB_URL = "mongodb://mongo:uXZgcWzfMjjtFNecnMgEjYSksBGyamjV@roundhouse.proxy.rlwy.net:26405"
